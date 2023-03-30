@@ -66,7 +66,7 @@ async function fetchURL(value){
         return;
     } else {
         try{
-            let res = await fetch(`http://gateway.marvel.com/v1/public/characters?nameStartsWith=${value}&ts=abcd&apikey=c4558e3e98639735a3ab3bc85dd5de2b&hash=30f530009b846bdb8bcdfc0cfebba962`);
+            let res = await fetch(`https://gateway.marvel.com/v1/public/characters?nameStartsWith=${value}&ts=abcd&apikey=c4558e3e98639735a3ab3bc85dd5de2b&hash=30f530009b846bdb8bcdfc0cfebba962`);
             let data = await res.json();
             let dataArr = await data.data.results;
             return dataArr;
