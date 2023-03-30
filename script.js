@@ -1,10 +1,10 @@
-// My Public API - b309871f10806da0e2b3918da9a73af5
-// MD5 Hash -      c8ee13381c07c4d76e309375612300a5
+// My Public API - c4558e3e98639735a3ab3bc85dd5de2b
+// MD5 Hash -      30f530009b846bdb8bcdfc0cfebba962
 
-let publickey = "b309871f10806da0e2b3918da9a73af5";
+let publickey = "c4558e3e98639735a3ab3bc85dd5de2b";
 let cardDiv = document.getElementById("cards");
 let searchBar = document.getElementById("searchInput");
-let favourites = JSON.parse(localStorage.getItem("fav"));
+let favourites = JSON.parse(localStorage.getItem("fav"))||[];
 //! Onload Function for first call
 window.onload = ()=>{
     emptyData();
