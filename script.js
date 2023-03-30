@@ -1,4 +1,4 @@
-// My Public API - c4558e3e98639735a3ab3bc85dd5de2b
+//Public key - c4558e3e98639735a3ab3bc85dd5de2b
 // MD5 Hash -      30f530009b846bdb8bcdfc0cfebba962
 
 let publickey = "c4558e3e98639735a3ab3bc85dd5de2b";
